@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap')
+
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.main-block {
+  background-image: url(images/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+button {
+  border: 1px solid white;
+  font-weight: 400px;
+  font-size: 20px;
+  background-color: transparent;
+  padding: 6px 30px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+.main-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.main-content h1 {
+  font-size: 100px;
+  line-height: 117px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.main-content p {
+  font-weight: 400px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+.main-content a {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.main-content a :last-child {
+  margin-right: 0;
+}
+.icons {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.icons img {
+  margin-right: 5px;
+}
+.main-question {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
